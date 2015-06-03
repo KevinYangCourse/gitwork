@@ -48,6 +48,7 @@ Other commands:
 
 a. pwd: check current directory 
 b. ls: display all files (=dir)
+c. cat: display file (cat readme.txt)
 
 End
 test line
