@@ -21,4 +21,17 @@ check changes history
 
 check what is changed
 
+6. git log
+display log time line
+
+6.1 git log --pretty=oneline
+display each log in one line
+
+-------------------------------------------------
+
+Other commands:
+
+a. pwd: check current directory 
+b. ls: display all files (=dir)
+
 End
