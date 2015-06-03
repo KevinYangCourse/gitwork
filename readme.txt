@@ -27,6 +27,16 @@ display log time line
 6.1 git log --pretty=oneline
 display each log in one line
 
+7. git reset --hard HEAD^
+go back to last version
+7.1 git reset --hard 9f4d09b
+go to version 9f4d09b
+7.1.1 git log
+check version if you want to go back to past
+7.1.2 git reflog
+check version if you want to go back to future
+
+
 -------------------------------------------------
 
 Other commands:
