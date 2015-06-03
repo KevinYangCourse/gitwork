@@ -1,5 +1,7 @@
 Git version control system tutorial notes:
 
+work space --------(git add)-----> index (stage) --------(git commit)-----------> master
+
 Commands explanation:
 
 1. git init 
@@ -18,8 +20,9 @@ write commit of  changes
 check changes history
 
 5. git diff
-
 check what is changed
+5.1 git diff HEAD -- test.txt
+check different between work space and version repository( master)
 
 6. git log
 display log time line
