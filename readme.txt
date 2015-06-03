@@ -29,11 +29,16 @@ display each log in one line
 
 7. git reset --hard HEAD^
 go back to last version
-7.1 git reset --hard 9f4d09b
+7. 1 git reset --hard HEAD~55
+go back to version 55
+
+7.2 git reset --hard 9f4d09b
 go to version 9f4d09b
-7.1.1 git log
+
+7.2.1 git log
 check version if you want to go back to past
-7.1.2 git reflog
+
+7.2.2 git reflog
 check version if you want to go back to future
 
 
