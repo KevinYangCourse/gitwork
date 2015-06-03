@@ -1,6 +1,6 @@
-Git version control system
+Git version control system tutorial notes:
 
-Command:
+Commands explanation:
 
 1. git init 
 
@@ -12,3 +12,12 @@ add file/s to the repository
 3. git commit -m "declare what changes have been made here - eg. added 3 files"
 
 write commit of  changes
+
+4. git status
+
+check changes history
+
+5. git diff
+
+check what is changed
+
