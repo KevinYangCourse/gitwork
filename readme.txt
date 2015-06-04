@@ -67,7 +67,7 @@ Push all content from master to origin repository first time
 
 11.3.git push origin master
 push modifications
-
+.
 -------------------------------------------------
 
 Other commands:
@@ -76,5 +76,6 @@ a. pwd: check current directory
 b. ls: display all files (=dir)
 c. cat: display file (cat readme.txt)
 d. git push origin master (push changes to cloud side)
+e. gitk: graphic view
 
 End
