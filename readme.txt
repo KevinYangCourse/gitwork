@@ -68,6 +68,8 @@ Push all content from master to origin repository first time
 11.3.git push origin master
 push modifications
 .
+12. git clone https://github.com/kevinyangcourse/gitwork3
+clone origin repository to local area
 -------------------------------------------------
 
 Other commands:
