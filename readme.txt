@@ -44,6 +44,9 @@ check version if you want to go back to past
 7.2.2 git reflog
 check version if you want to go back to future
 
+8. git checkout -- readme.txt
+
+discard modifications in workspace
 
 -------------------------------------------------
 
