@@ -48,6 +48,10 @@ check version if you want to go back to future
 
 discard modifications in workspace
 
+9. git reset HEAD test.txt + git checkout -- test.txt
+
+discard modifications in stage
+
 -------------------------------------------------
 
 Other commands:
@@ -57,4 +61,3 @@ b. ls: display all files (=dir)
 c. cat: display file (cat readme.txt)
 
 End
-test line
