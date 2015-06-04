@@ -59,6 +59,14 @@ recovery file test.txt
 10.2 git rm test.txt
 permanently delete file test.txt
 
+11.1 git remote add origin git@server-name:path/repo-name.git
+connect to a remote repository
+
+11.2. git push -u origin master
+Push all content from master to origin repository first time
+
+11.3.git push origin master
+push modifications
 
 -------------------------------------------------
 
