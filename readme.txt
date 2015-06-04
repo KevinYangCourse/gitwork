@@ -49,8 +49,16 @@ check version if you want to go back to future
 discard modifications in workspace
 
 9. git reset HEAD test.txt + git checkout -- test.txt
-
 discard modifications in stage
+9.1 git reset --hard HEAD 3as4df
+restore to last version in version repository (master)
+
+10. rm test.txt 
+10.1 git checkout -- test.txt
+recovery file test.txt
+10.2 git rm test.txt
+permanently delete file test.txt
+
 
 -------------------------------------------------
 
@@ -59,5 +67,6 @@ Other commands:
 a. pwd: check current directory 
 b. ls: display all files (=dir)
 c. cat: display file (cat readme.txt)
+d. git push origin master (push changes to cloud side)
 
 End

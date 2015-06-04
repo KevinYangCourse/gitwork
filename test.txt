@@ -1,5 +1,0 @@
-test 2nd file changes.
-
-2nd line added.
-
-3rd line added. - check if file is subbmitted from work space to stage.
