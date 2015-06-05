@@ -104,6 +104,12 @@ Fast forward cannot keep the record.
 16.1 git stash
 save current job and suspend.
 
+16.2 git stash list
+check if the suspend job exists
+
+16.3 git stash pop = git stash apply + git stash drop
+restore suspend job
+
 
 -------------------------------------------------
 
