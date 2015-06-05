@@ -1,4 +1,4 @@
-test in Dev and push to origin 3
+test in Dev and push to origin 6
 
-add new username and email to push. 3
+add new username and email to push. 6
 
