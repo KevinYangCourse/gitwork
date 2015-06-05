@@ -94,6 +94,13 @@ check branch status
 check brief report of branch status
 
 
+15. git merge --no-ff -m 'merge with no-ff' dev
+merge branch without fast forward argue.
+
+Fast forward cannot keep the record.
+
+
+
 -------------------------------------------------
 
 Other commands:
