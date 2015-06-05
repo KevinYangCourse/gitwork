@@ -83,6 +83,17 @@ change to branch master
 merge branch dev to master
 13.5 git branch -d dev
 delete branch dev
+
+14. create feature1 branch--> add line, save / add/commit --> checkout to master -->
+open file, add line with conflict content --> save / add / commit -->
+ merge --> conflict --> check and fix conflict, save file -> submit
+
+14.1git log --graph
+check branch status
+14.2 git log --graph  --pretty=online --abbrev-commit
+check brief report of branch status
+
+
 -------------------------------------------------
 
 Other commands:
