@@ -99,7 +99,8 @@ merge branch without fast forward argue.
 
 Fast forward cannot keep the record.
 
-
+16. git stash
+save current job and suspend.
 
 -------------------------------------------------
 
