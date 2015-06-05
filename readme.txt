@@ -100,6 +100,7 @@ merge branch without fast forward argue.
 Fast forward cannot keep the record.
 
 
+16.1 fix emergent buy - use git stash to save current job and create new branch issue101
 
 -------------------------------------------------
 
