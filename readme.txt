@@ -70,6 +70,19 @@ push modifications
 .
 12. git clone https://github.com/kevinyangcourse/gitwork3
 clone origin repository to local area
+
+13. git branch dev
+create branch dev
+13.1 git checkout -b dev
+create branch dev and switch to dev
+13.2 git branch
+check current branch
+13.3 git checkout master
+change to branch master
+13.4 git merge dev
+merge branch dev to master
+13.5 git branch -d dev
+delete branch dev
 -------------------------------------------------
 
 Other commands:
