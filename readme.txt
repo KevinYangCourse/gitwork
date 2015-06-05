@@ -115,6 +115,11 @@ restore suspend job
 17. git branch -D feature
 force to delete un-merged branch feature.
 
+18. multiple user co-work:
+
+git push origin dev  ---->  failed, origin got newer version, git pull, and merge 
+-----> failed,  assign local dev branch to connect origin branch: git branch --set-upstream dev origin/dev
+ ---> pull again ---> merge and push, git push origin dev
 -------------------------------------------------
 
 Other commands:
