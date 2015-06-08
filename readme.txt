@@ -139,7 +139,12 @@ git push origin dev  ---->  failed, origin got newer version, git pull, and merg
  delete tag v0.2
  20.3 git push origin :refs/tags/v1.0
  remote delete tag
- 
+
+
+ 21. create .gitignore file and add 'test2.txt', 'test3.txt' in to ignore changes in these files.
+
+.gitignore is in the workspace.
+
 -------------------------------------------------
 
 Other commands:
