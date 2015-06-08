@@ -120,6 +120,26 @@ force to delete un-merged branch feature.
 git push origin dev  ---->  failed, origin got newer version, git pull, and merge 
 -----> failed,  assign local dev branch to connect origin branch: git branch --set-upstream dev origin/dev
  ---> pull again ---> merge and push, git push origin dev
+ 
+ 19. git tag
+ add tag to branch
+ 19.1 git tag v1.0 51023a
+ add tag to special commit
+ use git log --pretty=oneline --abbrev-commit to find commit list
+ 
+ 19.2 git show v0.9
+ show tags' details
+ 19.3 git show.
+ 
+ 20. git push origin v1.0
+ push 1 tag
+ 20.1 git push origin --tags
+ push all tags
+ 20.2 git tag -d v0.2
+ delete tag v0.2
+ 20.3 git push origin :refs/tags/v1.0
+ remote delete tag
+ 
 -------------------------------------------------
 
 Other commands:
