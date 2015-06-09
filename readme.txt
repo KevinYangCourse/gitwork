@@ -151,8 +151,11 @@ git push origin dev  ---->  failed, origin got newer version, git pull, and merg
      git config --global alias.br branch
 
      Add alias name to short commands.
--------------------------------------------------
 
+23. cat .git/config
+check git configuration
+
+----------------------------------------------------
 Other commands:
 
 a. pwd: check current directory 
@@ -160,5 +163,14 @@ b. ls: display all files (=dir)
 c. cat: display file (cat readme.txt)
 d. git push origin master (push changes to cloud side)
 e. gitk: graphic view
+
+----------------------------------------------
+ref
+tutorial: 
+http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+git-creatsheet:
+
+http://liaoxuefeng-liaoxuefeng.stor.sinaapp.com/learngit/git-cheatsheet.pdf
 
 End
