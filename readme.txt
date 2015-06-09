@@ -145,6 +145,12 @@ git push origin dev  ---->  failed, origin got newer version, git pull, and merg
 
 .gitignore is in the workspace.
 
+
+ 22. git config --global alias.ci 'commit -'
+     git config --global alias.co checokout
+     git config --global alias.br branch
+
+     Add alias name to short commands.
 -------------------------------------------------
 
 Other commands:
