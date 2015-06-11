@@ -165,6 +165,7 @@ d. git push origin master (push changes to cloud side)
 e. gitk: graphic view
 f. clear: clear screen = dos/cls
 g. touch: create an empty file
+h. mv: move file = dos/copy+paste
 ----------------------------------------------
 ref
 tutorial: 
