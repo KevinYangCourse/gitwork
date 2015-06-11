@@ -163,7 +163,7 @@ b. ls: display all files (=dir)
 c. cat: display file (cat readme.txt)
 d. git push origin master (push changes to cloud side)
 e. gitk: graphic view
-
+f. clear: clear screen = dos/cls
 ----------------------------------------------
 ref
 tutorial: 
