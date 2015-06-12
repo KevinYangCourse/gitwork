@@ -160,18 +160,18 @@ check git configuration
 ----------------------------------------------------
 ##Other common/UNIX commands:
 
-*a. pwd: check current directory 
-*b. ls: display all files (=dir)
-*c. cat: display file (cat readme.txt)
-*d. git push origin master (push changes to cloud side)
-*e. gitk: graphic view
-*f. clear: clear screen = dos/cls
-*g. touch: create an empty file
-*h. mv: move file = dos/copy+paste
-*h1.mv file1.txt file2.txt: rename file from file1 to file2
-*i. git config --list: all details of configuration
-*j. git config --global user.name 'usernam': input username at first time to use
-*j1. git config --global user.email 'email': input email 
+* a. pwd: check current directory 
+* b. ls: display all files (=dir)
+* c. cat: display file (cat readme.txt)
+* d. git push origin master (push changes to cloud side)
+* e. gitk: graphic view
+* f. clear: clear screen = dos/cls
+* g. touch: create an empty file
+* h. mv: move file = dos/copy+paste
+* h1.mv file1.txt file2.txt: rename file from file1 to file2
+* i. git config --list: all details of configuration
+* j. git config --global user.name 'usernam': input username at first time to use
+* j1. git config --global user.email 'email': input email 
 ----------------------------------------------
 
 ##Ref
