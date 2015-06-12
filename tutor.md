@@ -1,7 +1,10 @@
+
+##Title
 Git version control system tutorial notes:
 
-work space --------(git add)-----> index (stage) --------(git commit)-----------> master
+work space --------(git add)-----> index (stage) --------(git commit)-----------> master(locl repo)
 
+##Brief Tutorial
 Commands explanation:
 
 1. git init 
