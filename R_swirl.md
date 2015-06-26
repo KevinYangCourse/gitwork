@@ -27,3 +27,4 @@
 * d. setwd("newFolder"): set up 'newFolder' as working directory
 * e. file.create("newFile.txt"): create new file
 
+---------------------------------
