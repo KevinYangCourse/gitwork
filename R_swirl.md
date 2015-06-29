@@ -22,9 +22,11 @@
 ###Common commmand:
 
 * a. getwd(): show the working directory
-* b. ls(): list folder/file
-* c. dir.create("newFolder"): = cmd/mkdir
-* d. setwd("newFolder"): set up 'newFolder' as working directory
-* e. file.create("newFile.txt"): create new file
+* b. ls(): list current values/variables
+* c. list.files(): list folder/file
+* d. dir.create("newFolder"): = cmd/mkdir
+* e. setwd("newFolder"): set up 'newFolder' as working directory
+* f. file.create("newFile.txt"): create new file
+* g. file.exists("newFile.txt"): file exists or not, value = TRUE/FALSE
 
 ---------------------------------
