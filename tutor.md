@@ -171,6 +171,7 @@ check git configuration
 * h1.mv file1.txt file2.txt: rename file from file1 to file2
 * i. git config --list: all details of configuration
 * j. git config --global user.name 'usernam': input username at first time to use
+
 * j1. git config --global user.email 'email': input email 
 ----------------------------------------------
 
