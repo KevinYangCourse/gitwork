@@ -59,9 +59,59 @@
 43. vect["bar"]
 44. vect[c("foo","bar")]
 
-### section7 - 
-### section8 -
-### section9 - 
+### section7 - matrices and data frames
+
+45. my_vector <- 1:20, = c(1,2,3,...,20)
+46. dim(my_vector), result NULL
+47. length(my_vector), result 20
+48. dim(my_vector) <- c(4,5)
+49. dim(my_vector), attribures(my_vector): check attributes
+50. class(my_vector): result "[1] "matrix"" /  class(my_data): result "[1]"numeric""
+51. my_matrix2 <- matrix(1:20,4,5, FALSE, NULL)
+52. identical (my_matrix, my_matrix2): result "TRUE"
+53. patients <- c("Bill", "Gina", "Kelly", "Sean")
+54. cbind(patients, my_matrix): add column of patient names in the matrix
+55. my_data <- data.frame(patients, my_matrix): don't change numeric element to chr
+56. class(my_data): result "[1] "data.frame""
+57. cnames <- c("patient","age", "weight", "bp", "rating", "test")
+58: colnames(my_data)<-cnames : add titles to each columns
+
+### section8 - logic
+
+59. TRUE & c(TRUE, FALSE, FALSE): & compare all elements, result [1] TRUE FALSE FALSE
+60. TRUE && c(TRUE, FALSE, FALSE): && only compare 1st element, result [1] TRUE
+61. |,||: OR
+62. !=: NOT EQUAL
+63. XOR: 0 1 1 0
+64. ints <- sample(10), ints > 5, result [1] TRUE FALSE TRUE ...
+65. which(ints>7): result [1] 1 5 9
+66. any(ints<0): result [1] FALSE, to see if any of the elements of ints are <0
+67. all(ints>0): result [1] TRUE, to see if all of the elements of ints are >0
+
+### section9 - functions
+
+68. Sys.Date()
+69. mean(c(2,4,5))
+70. Sys.Date: only function name will display its source code
+71. args(remainder): check arguments in the function 'remainder'
+72. some_function <- function(func){ func(2,4)}
+73. evaluate(function(x){x+1},6)
+74. evaluate(function(x){x[3]}, c(8,4,0))
+75. evaluate(function(x){x[lenght(x)]}, c(8,4,0))
+76. paste(..., sep=" ", collapse=NULL):All arguments after an ellipses must have default values.
+77. my_1func <- function(x=1,y=2,z=3){x+y+z}
+78. telegram <- function(...){paste("START", ..., "STOP")}
+79. mad_libs <- function(...){
+	theargs <- list(...)
+	place <- theargs[["place"]]
+	adjective <- theargs[["adjective"]]
+	noun <- theargs[["noun"]]
+    }
+
+80. "%p%" <- function(left,right){
+	paste(left, right)
+	}
+
 ### section10 -
 ### section11 - 
 ### section12 - 
@@ -115,6 +165,7 @@
 
 ---------------------------------
 
-
+1. Everything that exists is an object.
+2. Everything that happens is a function call.
 
 
